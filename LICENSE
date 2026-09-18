@@ -1,0 +1,25 @@
+ORCA SENSOR SDK LICENSE SCOPE
+
+Copyright (c) 2024-2026 Shanghai Songying Technology Co.,Ltd.
+
+This distribution contains components under separate licenses:
+
+1. Public SDK headers, specifications, documentation and provider sample
+   source code are licensed under the MIT License reproduced in
+   licenses/PUBLIC_SDK_LICENSE.txt. Provider packages built from the samples
+   retain that MIT License. This notice does not remove existing MIT rights.
+
+2. The Orca-owned precompiled Sensor Host in lib/ and contract tool in bin/
+   are licensed under the company agreement in licenses/ORCA_BINARY_LICENSE.html
+   together with licenses/ORCA_BINARY_LICENSE_ADDENDUM.md. The addendum permits
+   commercial SDK use, automated builds and the specified redistributions.
+   These compiled components are not licensed under the public-source MIT
+   License. Their private implementation source code is not included.
+
+3. Third-party components retain their separate licenses and notices in
+   bin/<platform>/licenses/. Those licenses govern their respective components
+   and are not restricted by the company agreement or the SDK addendum.
+
+licenses/ORCA_BINARY_LICENSE_SOURCE.json records the company agreement's
+source URL and the SHA-256 of the accompanying snapshot. Keep the applicable
+licenses and notices with redistributed components.

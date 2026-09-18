@@ -1,0 +1,5 @@
+# 只忽略本地构建产物；SDK 自带的 lib/ 和 bin/ 必须随公开仓库提交。
+/build/
+/build-*/
+/cmake-build-*/
+/.codex/

@@ -1,0 +1,15 @@
+#ifndef ORCA_SENSOR_VERSION_H
+#define ORCA_SENSOR_VERSION_H
+
+/* SDK 发布版本：CMake 从 SDK 根目录的 VERSION 读取版本并生成此头文件。
+ * 这是生成模板，编译时使用生成的 orca_sensor_version.h。
+ * 下列版本宏不改变 C ABI、结构体布局或型号包选择的 sdk_version。
+ */
+#define ORCA_SENSOR_SDK_VERSION "@ORCA_SENSOR_SDK_VERSION@"
+
+/* 拆分后的主版本、次版本、修订版本，便于 C/C++ 代码中进行版本显示或判断。 */
+#define ORCA_SENSOR_SDK_VERSION_MAJOR @ORCA_SENSOR_SDK_VERSION_MAJOR@
+#define ORCA_SENSOR_SDK_VERSION_MINOR @ORCA_SENSOR_SDK_VERSION_MINOR@
+#define ORCA_SENSOR_SDK_VERSION_PATCH @ORCA_SENSOR_SDK_VERSION_PATCH@
+
+#endif /* ORCA_SENSOR_VERSION_H */

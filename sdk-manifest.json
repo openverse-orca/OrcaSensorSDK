@@ -1,0 +1,576 @@
+{
+  "abi_version": 2,
+  "files": {
+    ".gitattributes": {
+      "sha256": "ed239e2796afc0f6d4d0cabe449784948cbfd9b2fc18f0e942add9c2e0897141",
+      "size": 104
+    },
+    ".gitignore": {
+      "sha256": "5b92443c5b87f21e0723c503a5c6a97b7f29cda6461f4edc6c9b34be98634559",
+      "size": 125
+    },
+    "CMakeLists.txt": {
+      "sha256": "d27835098cbbc4ca2c8bf3ffce68ec8ad5ee14ab1fa021f90810239ee8bcf11b",
+      "size": 5515
+    },
+    "LICENSE": {
+      "sha256": "6b448cb018fb1f61fac8f2d90c66551c7ecf059e9554dd0f2544d2b203e5ebdb",
+      "size": 1333
+    },
+    "README.md": {
+      "sha256": "13fd3bbe3e8a4147d21d0ba9877019c8d831fcd2b569e07e08155a155459e563",
+      "size": 30183
+    },
+    "VERSION": {
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "size": 6
+    },
+    "bin/linux-x86_64/_internal/VERSION": {
+      "sha256": "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03",
+      "size": 6
+    },
+    "bin/linux-x86_64/_internal/base_library.zip": {
+      "sha256": "f7a0d995a5bf9534dde04639a81611c6ef7a429626e626e3592559add551a53e",
+      "size": 879993
+    },
+    "bin/linux-x86_64/_internal/compatibility/1.0.0/capability-catalog.v1.json": {
+      "sha256": "196162610e2364c5fdbf463aa3315a11b863873297c2e81ddb87fa7f413fde51",
+      "size": 11423
+    },
+    "bin/linux-x86_64/_internal/compatibility/1.0.0/profile.json": {
+      "sha256": "70a65f65f16ec8b62ebe97e01bb6659484008c50d9830b6994f784edb901bfc6",
+      "size": 244
+    },
+    "bin/linux-x86_64/_internal/libbz2.so.1.0": {
+      "sha256": "f7ea9714d8e258d592a5b9a1a1322ea848cf0209f75c8c07542c142462c9e3cf",
+      "size": 79568
+    },
+    "bin/linux-x86_64/_internal/libcrypto.so.3": {
+      "sha256": "d4a25fede0fee13b81ce4b317f11d00d22aad888ac7a35ce4c510b8ed8022223",
+      "size": 4611672
+    },
+    "bin/linux-x86_64/_internal/libexpat.so.1": {
+      "sha256": "90ad157063808573016151732fd4edf75236e28a367ae368938c91cc0b93692a",
+      "size": 199808
+    },
+    "bin/linux-x86_64/_internal/libffi.so.8": {
+      "sha256": "3c79d61c14b340560e10cecfaf36085efab30318076bde0f081fded2a1ee5641",
+      "size": 51360
+    },
+    "bin/linux-x86_64/_internal/liblzma.so.5": {
+      "sha256": "b9fdbef3fc183d592c45566570aeb917e826e65888a0bfd28155367f7e5e5584",
+      "size": 176296
+    },
+    "bin/linux-x86_64/_internal/libmpdec.so.3": {
+      "sha256": "05be1cbabb959eaa68df85474bfcc9a8f11e530f47c2679043bd222f91b7c642",
+      "size": 196648
+    },
+    "bin/linux-x86_64/_internal/libpython3.10.so.1.0": {
+      "sha256": "3575c11de2719765793e40895fe7e2bbf3606c2c2a2f8093b19a0db1a3d0c8f2",
+      "size": 5889600
+    },
+    "bin/linux-x86_64/_internal/libssl.so.3": {
+      "sha256": "3fa6e21ccba4cc39cbcc3726fd49a87f57548ed56ae274fcf03c4f0aff974545",
+      "size": 697336
+    },
+    "bin/linux-x86_64/_internal/libz.so.1": {
+      "sha256": "141487afd4eba9d2ec4c105d3c0963a9f4ec12edcedc118d36f36f0ffe468308",
+      "size": 113536
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_bz2.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "464006fb29b90174fda106f54f5e4b4cde12b621e60753c55cf7b64a56968776",
+      "size": 35728
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_codecs_cn.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "3e4dcaed606ddb7ad4a47ab88837a22ab2bb696dbb66a6b8c2367f2d2d5e1d75",
+      "size": 157208
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_codecs_hk.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "cd8221d30c1f01263ebe2222453b916a359b1576b06e517d98d48849f86e8c6e",
+      "size": 165632
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_codecs_iso2022.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "8ab18ae2f510ee0f7a7b881c3822e7729476820406dd0542ddd862f6af97974e",
+      "size": 34472
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_codecs_jp.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "a1bd1233f66885183ce5c95fb9731e7554c544b28391e6c55c23c541cb15cbfd",
+      "size": 276048
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_codecs_kr.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "a0f2feaf279ea60c91c66114c3605c7c2b84bd4d23e196414558095855deaabf",
+      "size": 144920
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_codecs_tw.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "01898a3534f240b820b7895e4121d74bfb08dd585b4217e0bb5add853c82a9fa",
+      "size": 116248
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_contextvars.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "70c88e69aa60cc10d25cd07a7be1f980782e9338013680ad48bd719553bc221d",
+      "size": 17424
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_ctypes.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "6d6aaeb14e14cd785a9c9f33ce2d069360c6893bc30e25b636214d9236b5c77a",
+      "size": 143896
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_decimal.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "65adc4e57cb6a178556abd7acaeffe8349716097ae6a58bd438b7c6e18329048",
+      "size": 193752
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_hashlib.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "d404cc7287c62be2d82d912d109ab68d8ddaf808e8db74e37403cc2d6cb9ba5d",
+      "size": 70752
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_json.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "bcde1317c45cfaa580983d20f25d83521bffc75f0e5bc77cfdfb58df75f3ad9c",
+      "size": 57016
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_lzma.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "32c318848af418283dd18978b01f4a2df207a9e230c0d1cd4f836d23d6178c0a",
+      "size": 53360
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_multibytecodec.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "8d55e439a99755ad117b657337503b192fb1a478c39434e7b8e12594d4c80735",
+      "size": 58000
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_opcode.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "8fda85f32115742469db9dd96f3a771f8dc056a38a09ca8a666656143e80d60f",
+      "size": 17664
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/_ssl.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "778d4337666bb4454f520d76cb85b4fa0a326a321827740fdbb6c4adbdc4789e",
+      "size": 244944
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/resource.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "1bef00d122f2ff0d00c334c021012466eb490da327ae8ddf6ea93c961636d487",
+      "size": 22560
+    },
+    "bin/linux-x86_64/_internal/python3.10/lib-dynload/termios.cpython-310-x86_64-linux-gnu.so": {
+      "sha256": "818c548f8c0db997200590671f60d75d3a32a914338792690b54aacc65013bd9",
+      "size": 35104
+    },
+    "bin/linux-x86_64/_internal/schema/capability-catalog.v1.json": {
+      "sha256": "196162610e2364c5fdbf463aa3315a11b863873297c2e81ddb87fa7f413fde51",
+      "size": 11423
+    },
+    "bin/linux-x86_64/_internal/schema/input-contract.schema.json": {
+      "sha256": "fb8ec23d8d6976979c8804cab1be68188ce80d81d9c7b4a066f337967af08eb9",
+      "size": 13786
+    },
+    "bin/linux-x86_64/_internal/schema/io-contract.schema.json": {
+      "sha256": "85518a4fff24a0503014e733639ab1503df0eee1a00883f760cccf9f40e4561f",
+      "size": 16411
+    },
+    "bin/linux-x86_64/_internal/schema/model.schema.json": {
+      "sha256": "02da3b1566f7c6708edc8502ce9a6593a685a37b185dab48911f036056ab2891",
+      "size": 4091
+    },
+    "bin/linux-x86_64/_internal/schema/presentation.schema.json": {
+      "sha256": "6c210f943f80154670f6574a3448bb5e738339d3a6bfafd2c777d12bf20aa1fa",
+      "size": 883
+    },
+    "bin/linux-x86_64/_internal/schema/provider.schema.json": {
+      "sha256": "1b25f0ad3e4af417e9186b9d6734f7d366f2fbaf3035db0bfe1797c98098908f",
+      "size": 5875
+    },
+    "bin/linux-x86_64/_internal/schema/query-catalog.v2.json": {
+      "sha256": "1d527c07cc806e8e7544af07de7ab8eb4bd7198b85cdf9df1a7ce9a1976c4b9b",
+      "size": 3182
+    },
+    "bin/linux-x86_64/licenses/PyInstaller-COPYING.txt": {
+      "sha256": "dcf75fdb959db1e3b41c0f8505069d2ece781b5ec6b3d0a4d30975cfc6580245",
+      "size": 32138
+    },
+    "bin/linux-x86_64/licenses/README.txt": {
+      "sha256": "0de804bb1c1fa558f7b9214e417a08c5c250ebc51a1e0e5d34dab4a00f3d057e",
+      "size": 6190
+    },
+    "bin/linux-x86_64/licenses/common/Apache-2.0": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
+    },
+    "bin/linux-x86_64/licenses/common/Artistic": {
+      "sha256": "b7fd9b73ea99602016a326e0b62e6646060d18febdd065ceca8bb482208c3d88",
+      "size": 6111
+    },
+    "bin/linux-x86_64/licenses/common/GPL": {
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "size": 35147
+    },
+    "bin/linux-x86_64/licenses/common/GPL-1": {
+      "sha256": "d77d235e41d54594865151f4751e835c5a82322b0e87ace266567c3391a4b912",
+      "size": 12632
+    },
+    "bin/linux-x86_64/licenses/common/GPL-2": {
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "size": 18092
+    },
+    "bin/linux-x86_64/licenses/common/GPL-3": {
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "size": 35147
+    },
+    "bin/linux-x86_64/licenses/common/LGPL-2": {
+      "sha256": "b7993225104d90ddd8024fd838faf300bea5e83d91203eab98e29512acebd69c",
+      "size": 25383
+    },
+    "bin/linux-x86_64/licenses/common/LGPL-2.1": {
+      "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551",
+      "size": 26530
+    },
+    "bin/linux-x86_64/licenses/libbz2-1.0_amd64/copyright": {
+      "sha256": "832ed535ff3c3d025a8d2348eb1b697b89addcf2eaadbc17650262040b9145e2",
+      "size": 2228
+    },
+    "bin/linux-x86_64/licenses/libexpat1_amd64/copyright": {
+      "sha256": "60919fe1a156395ff14511bb6ff79756c50ade2fff59ac60c9bae1d8a7fe6292",
+      "size": 1756
+    },
+    "bin/linux-x86_64/licenses/libffi8_amd64/copyright": {
+      "sha256": "7258c8acc378030d8dbe1fcdf394e915769fa31dcbaf3d2991d9a79891f3bcdc",
+      "size": 3440
+    },
+    "bin/linux-x86_64/licenses/liblzma5_amd64/copyright": {
+      "sha256": "a2dc8fac0f496e1c58aff67018cf0c6b88336316afa5642f9335b71642e28aa8",
+      "size": 15465
+    },
+    "bin/linux-x86_64/licenses/libmpdec3_amd64/copyright": {
+      "sha256": "be6dc763ac497102bbece71c0a83619ff538fd8e0ad43b8990c91bf323046228",
+      "size": 2348
+    },
+    "bin/linux-x86_64/licenses/libpython3.10-minimal_amd64/copyright": {
+      "sha256": "f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382",
+      "size": 49855
+    },
+    "bin/linux-x86_64/licenses/libpython3.10-stdlib_amd64/copyright": {
+      "sha256": "f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382",
+      "size": 49855
+    },
+    "bin/linux-x86_64/licenses/libpython3.10_amd64/copyright": {
+      "sha256": "f1cbf908e1daa8789b389fdcf17811ed36b675d736b39a103591399861350382",
+      "size": 49855
+    },
+    "bin/linux-x86_64/licenses/libssl3_amd64/copyright": {
+      "sha256": "6a7da622fe0637a334d2a8fc470852d2ffb77d9a2b2f930f854e32a41ad6ef35",
+      "size": 2543
+    },
+    "bin/linux-x86_64/licenses/upstream/bzip2/LICENSE.txt": {
+      "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3",
+      "size": 1896
+    },
+    "bin/linux-x86_64/licenses/upstream/cpython/LICENSE.txt": {
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "size": 13936
+    },
+    "bin/linux-x86_64/licenses/upstream/expat/COPYING.txt": {
+      "sha256": "8c6b5b6de8fae20b317f4992729abc0e520bfba4c7606cd1e9eeb87418eebdec",
+      "size": 1144
+    },
+    "bin/linux-x86_64/licenses/upstream/libbz2-1.0_amd64.json": {
+      "sha256": "af8d3712f8033b73841600c685dcb9f956c12441a925b0e28e418e7ad01b409e",
+      "size": 541
+    },
+    "bin/linux-x86_64/licenses/upstream/libexpat1_amd64.json": {
+      "sha256": "29c9cdbb006dcd72be742e79a730b35b30814adf55191e81446eac097c0fb340",
+      "size": 400
+    },
+    "bin/linux-x86_64/licenses/upstream/libffi/LICENSE.txt": {
+      "sha256": "a61d06e8f7be57928e71e800eb9273b05cb8868c484108afe41e4305bb320dde",
+      "size": 1132
+    },
+    "bin/linux-x86_64/licenses/upstream/libffi8_amd64.json": {
+      "sha256": "445cdf405ac4d4232e3aa31e47ef645865db70999aae8ecf41a27585f9d55100",
+      "size": 380
+    },
+    "bin/linux-x86_64/licenses/upstream/liblzma5_amd64.json": {
+      "sha256": "fa064cda0c8f0795df20af45f74759582910c69997bc7e40a7dc03d28c8ab85d",
+      "size": 439
+    },
+    "bin/linux-x86_64/licenses/upstream/libmpdec3_amd64.json": {
+      "sha256": "a53a86dd9967d0d5e7023799ad781cce0be98ff360a4f5f0b32252aa7ba29c7d",
+      "size": 569
+    },
+    "bin/linux-x86_64/licenses/upstream/libpython3.10-minimal_amd64.json": {
+      "sha256": "8257c6425a296fd34c21c280fca263fccf114f844880057bf3fa5b72eed3fcbc",
+      "size": 450
+    },
+    "bin/linux-x86_64/licenses/upstream/libpython3.10-stdlib_amd64.json": {
+      "sha256": "d66f4f491697dd4afe0da17f62f1cc4a0596391e116c9de1730be6dc40f0d8c7",
+      "size": 449
+    },
+    "bin/linux-x86_64/licenses/upstream/libpython3.10_amd64.json": {
+      "sha256": "93ffb95d20a4c534dda6abb8ea181c8cdbc4cc78c67b9b5ea7bd9f55ba99075e",
+      "size": 442
+    },
+    "bin/linux-x86_64/licenses/upstream/libssl3_amd64.json": {
+      "sha256": "b3b999afa5070d08d0383dcd6d05d25f860e5951549c4673a5bc7971b5a52b47",
+      "size": 412
+    },
+    "bin/linux-x86_64/licenses/upstream/mpdecimal/LICENSE.txt": {
+      "sha256": "b07528d8b1dbf1e2d2741052996f0876e23342ce2d30d0effa39c5457716c25a",
+      "size": 1359
+    },
+    "bin/linux-x86_64/licenses/upstream/openssl/LICENSE.txt": {
+      "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a",
+      "size": 10175
+    },
+    "bin/linux-x86_64/licenses/upstream/xz/COPYING.txt": {
+      "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c",
+      "size": 2775
+    },
+    "bin/linux-x86_64/licenses/upstream/zlib/README.txt": {
+      "sha256": "7960b6b1cc63e619abb77acaea5427159605afee8c8b362664f4effc7d7f7d15",
+      "size": 5187
+    },
+    "bin/linux-x86_64/licenses/upstream/zlib1g_amd64.json": {
+      "sha256": "affdf03d481c78b749556a6e642aa93cffe836598a6e790649f1809f7de60155",
+      "size": 391
+    },
+    "bin/linux-x86_64/licenses/zlib1g_amd64/copyright": {
+      "sha256": "d77204eee882807240f6351c4f5ae2a4bcdb5b773ff77d10647b9b66b826b2fb",
+      "size": 2920
+    },
+    "bin/linux-x86_64/orca-sensor-tool": {
+      "sha256": "4c164a9e7ca44bf1ea9dc345f5df8ce83db7c97d65ee962916b8a32b0b499260",
+      "size": 1177592
+    },
+    "bin/linux-x86_64/tool-release.json": {
+      "sha256": "68c7f79e7d4d727a8175d7443ef3420414476b8e84a4b67bb57fb5da4b2e642e",
+      "size": 11346
+    },
+    "cmake/OrcaSensorTool.cmake": {
+      "sha256": "264d6df382dcb87fbe1caa2bbb9c6026d54a3755b9d5b2e97b6731467f48fcd3",
+      "size": 1693
+    },
+    "cmake/OrcaSensorVersion.cmake": {
+      "sha256": "4ac2b40e8285c046d94a35093f8ed5f3497d61d816f8447d464953074028a6ea",
+      "size": 595
+    },
+    "compatibility/1.0.0/capability-catalog.v1.json": {
+      "sha256": "196162610e2364c5fdbf463aa3315a11b863873297c2e81ddb87fa7f413fde51",
+      "size": 11423
+    },
+    "compatibility/1.0.0/profile.json": {
+      "sha256": "70a65f65f16ec8b62ebe97e01bb6659484008c50d9830b6994f784edb901bfc6",
+      "size": 244
+    },
+    "docs/capabilities/contact.md": {
+      "sha256": "7cde7c1bb964386119b3c3669ad68a9fdbe4bf48e5aa752900103d9cd39359c3",
+      "size": 7159
+    },
+    "docs/capabilities/contact_grid.md": {
+      "sha256": "a7da25c3f6e79e45e820add90bbc89867138cee08e88acb6eed51a9ad455181e",
+      "size": 4652
+    },
+    "docs/capabilities/index.md": {
+      "sha256": "51b1794b02333ba3e669c2c3bcc6e55a7e06fe94844f2faf17781fb2df4a5c03",
+      "size": 8144
+    },
+    "docs/capabilities/legacy_range.md": {
+      "sha256": "1efc6b76d1e656328e0ec6aed3056a9e112441923ad186f8b7c52e5685233833",
+      "size": 2184
+    },
+    "docs/capabilities/parent_rotation.md": {
+      "sha256": "415a3d9137e40e4c471bbed9a662b67314d58c525c1dd15a4e38c7e4f6451097",
+      "size": 2136
+    },
+    "docs/capabilities/raycast.md": {
+      "sha256": "83feb442918591075f4e9fd182e5f670dc4135674136a4761ec440401986036b",
+      "size": 2789
+    },
+    "docs/capabilities/sampling.md": {
+      "sha256": "09916aa2bd4670347f09527e0884184c865cafde306a1d7a4200e75e6bae5f39",
+      "size": 2779
+    },
+    "docs/capabilities/site_raycast.md": {
+      "sha256": "7dfd95e885b4f7997161888d6e7ea8b56cafd51092156d11ad62ced4a2df1322",
+      "size": 4049
+    },
+    "docs/compatibility.md": {
+      "sha256": "5de479adb71cf7006f1fc2fdafd2221134f39effdb7f6e426c4342f6b26b6411",
+      "size": 7953
+    },
+    "examples/acceptance/README.md": {
+      "sha256": "0c19eddc55d6aad700a3949fc490e375b305ead247e448ae37ef1c829b5b36b6",
+      "size": 3500
+    },
+    "examples/acceptance/seven_pad_smoke.cpp": {
+      "sha256": "8acaccb46f7e2ec04329abf24466d68ff8e39c6eb26ffa3b3a7cd00e336946c4",
+      "size": 9331
+    },
+    "examples/acceptance/site_providers_smoke.cpp": {
+      "sha256": "fbc6450d2ebfb77b0543b95ad2ec7a50449806ff357c29861ccdb902f8fbb1de",
+      "size": 11896
+    },
+    "examples/acceptance/smoke.cpp": {
+      "sha256": "34444b1eb20ef50381f20be08e742eed6677200c90e3f1e93c096d4e9e038275",
+      "size": 8650
+    },
+    "examples/contact_grid/CMakeLists.txt": {
+      "sha256": "1bd6985ba081715dd862bb2b889a24f5cd0821bea4efd284708701382c6b5348",
+      "size": 3021
+    },
+    "examples/contact_grid/README.md": {
+      "sha256": "26d3ee3145a90c217231d603d2d31977d32de7835a51ccfb480f661093e8dedd",
+      "size": 3436
+    },
+    "examples/contact_grid/contact_grid.cpp": {
+      "sha256": "920aaa5f48559e7227903c7d9ea8157ba8bcfa0b688651e8b2c8bca410b3a5d0",
+      "size": 6974
+    },
+    "examples/contact_grid/contract.json": {
+      "sha256": "6015bf98e8dcbdb9d491bd44045209d16a4d6cf27f765ac8398e12b16b304105",
+      "size": 795
+    },
+    "examples/contact_grid/model.xml": {
+      "sha256": "7dfb1e2ee2685c0ea1f2d2ba341a7b38a74077f434f2bfa77ce00e0cdc6b556d",
+      "size": 663
+    },
+    "examples/contact_grid/provider.json": {
+      "sha256": "9d3e4204f1c6f1007c3dfadf81bf10537b328dd06cd614b7cfd8b1eed252b2d9",
+      "size": 600
+    },
+    "examples/rangefinder/CMakeLists.txt": {
+      "sha256": "06453e9586a0d613c9505baa5f5702a1d66fabc96475ce1b9cef4c799835818c",
+      "size": 3011
+    },
+    "examples/rangefinder/README.md": {
+      "sha256": "cfe0c5f9ef20e4198d74ee69bd7c6fe10a08924bb30fbd020b25ff3d93294f31",
+      "size": 3332
+    },
+    "examples/rangefinder/contract.json": {
+      "sha256": "908dcb2e6b24f8940bad6d97ce7c3859d820ec2c5c70adeaedb3e73ef69176d3",
+      "size": 711
+    },
+    "examples/rangefinder/model.xml": {
+      "sha256": "21fed6c47eaf20d09dd39b85e202874dadf7704760c86dcac529ebff8c202463",
+      "size": 516
+    },
+    "examples/rangefinder/provider.json": {
+      "sha256": "a1b08e91c440e8a1c125e62ad97a174eacf3ada731d5f893eeb1dd7a65b86995",
+      "size": 582
+    },
+    "examples/rangefinder/rangefinder.cpp": {
+      "sha256": "6a839e75861cdbd0bc6a83a01d4d7d139e64edf5946910e70f3fb90b547742fe",
+      "size": 6351
+    },
+    "examples/seven_pad/CMakeLists.txt": {
+      "sha256": "546a93dad1b841d9226c14bcb16ea34af44a08bcb9b0c2a56debe5d1a6eff3d1",
+      "size": 3067
+    },
+    "examples/seven_pad/README.md": {
+      "sha256": "0981838d14a8d35522e0ca007f13dbbd15ed5d41cfd8619e66dce2f29e4f67a3",
+      "size": 5921
+    },
+    "examples/seven_pad/contract.json": {
+      "sha256": "6d2aeccba45d1237b3f72f347ca54c7b862ebb519e073b2fa27b48c1c22e37b9",
+      "size": 1907
+    },
+    "examples/seven_pad/model.xml": {
+      "sha256": "435d659bf68342b1ef9b5746b7d65d228c68d7979e1f25e514ecc2ac55ec8616",
+      "size": 1802
+    },
+    "examples/seven_pad/presentation.json": {
+      "sha256": "179c330055595c4909249016aeb1bfc8342aa91df07e279546cfbf157d5e6f61",
+      "size": 265
+    },
+    "examples/seven_pad/provider.json": {
+      "sha256": "15186ab493f2c19b6ff27d06958f3e14faacd92986f784240bb187eb0a92b7d6",
+      "size": 814
+    },
+    "examples/seven_pad/seven_pad.cpp": {
+      "sha256": "1b8fe1f9ee82f8ad85fd40a9372b4fd77fab3b35bb8aceb5280bd6946c112217",
+      "size": 11837
+    },
+    "examples/touch_grid/CMakeLists.txt": {
+      "sha256": "8b494e482776d9f517f15a6920265f2eff2902c88eb161d33e7c1e047a0bf6e0",
+      "size": 3162
+    },
+    "examples/touch_grid/README.md": {
+      "sha256": "374e8649bc429971dc3a8e77f478993aadf758b486b391478189ea9231192833",
+      "size": 4786
+    },
+    "examples/touch_grid/contract.json": {
+      "sha256": "80d7a2a3a969f6b58000e9c6382bdb90637aed77ac638370e22a21e7bb6d014e",
+      "size": 1124
+    },
+    "examples/touch_grid/model.xml": {
+      "sha256": "30cda61e6ed3c02ea6487dacc3ac992c38f763dee746e3695aa0d051de377d30",
+      "size": 1063
+    },
+    "examples/touch_grid/provider.json": {
+      "sha256": "9addd0164070cd034f0b48d60f302cf4be589610074024f7617a2c255936102f",
+      "size": 750
+    },
+    "examples/touch_grid/touch_grid.cpp": {
+      "sha256": "c6ca67111322edd5ebdeab7bf7947fda01d4d31ddaf37c4835b5857c75a299d8",
+      "size": 8186
+    },
+    "include/orca_sensor_abi.h": {
+      "sha256": "b60e8776812dcd491a84578b209c5ec668d59d732a0f70898aca902d63202765",
+      "size": 11382
+    },
+    "include/orca_sensor_host.h": {
+      "sha256": "7b8dbd20d095d7c66d58e92a2af5657d9d08cea5418ca28f8835c38886bee9b7",
+      "size": 11865
+    },
+    "include/orca_sensor_version.h.in": {
+      "sha256": "5ca108d2364d4768407c4468c93f9dedfaba75a5bf0f523fdb5a4db2f15b5f5a",
+      "size": 738
+    },
+    "lib/linux-x86_64/liborca_sensor_host.so": {
+      "sha256": "de290d866aebda28ff2b42f0f59c8597818a94f8673cff287fa0c3b0aa229c8e",
+      "size": 75176
+    },
+    "licenses/ORCA_BINARY_LICENSE.html": {
+      "sha256": "ca3ac2f11d3e20c57cfc4d442a89fb016c0e5509aa6004d887aeacdc3903492a",
+      "size": 14733
+    },
+    "licenses/ORCA_BINARY_LICENSE_ADDENDUM.md": {
+      "sha256": "89984d19575cd33f3209839f31f9905e053ba21444134ea9a09b268bd9eaeff7",
+      "size": 3218
+    },
+    "licenses/ORCA_BINARY_LICENSE_SOURCE.json": {
+      "sha256": "7a823a790c1701a1d1aa7c1b243bfc3f9f29f37998ea9dac8ed9f846dcd51f06",
+      "size": 435
+    },
+    "licenses/PUBLIC_SDK_LICENSE.txt": {
+      "sha256": "af4a242d7bc697c1e9f635a28500004507816cb131c6d05971b4ede4fd52047f",
+      "size": 1099
+    },
+    "native-manifest.json": {
+      "sha256": "812c464e392b64eb42245a5ea0701070089c539ba53280708efc22c559c245d1",
+      "size": 26862
+    },
+    "schema/capability-catalog.v1.json": {
+      "sha256": "196162610e2364c5fdbf463aa3315a11b863873297c2e81ddb87fa7f413fde51",
+      "size": 11423
+    },
+    "schema/input-contract.schema.json": {
+      "sha256": "fb8ec23d8d6976979c8804cab1be68188ce80d81d9c7b4a066f337967af08eb9",
+      "size": 13786
+    },
+    "schema/io-contract.schema.json": {
+      "sha256": "85518a4fff24a0503014e733639ab1503df0eee1a00883f760cccf9f40e4561f",
+      "size": 16411
+    },
+    "schema/model.schema.json": {
+      "sha256": "02da3b1566f7c6708edc8502ce9a6593a685a37b185dab48911f036056ab2891",
+      "size": 4091
+    },
+    "schema/presentation.schema.json": {
+      "sha256": "6c210f943f80154670f6574a3448bb5e738339d3a6bfafd2c777d12bf20aa1fa",
+      "size": 883
+    },
+    "schema/provider.schema.json": {
+      "sha256": "1b25f0ad3e4af417e9186b9d6734f7d366f2fbaf3035db0bfe1797c98098908f",
+      "size": 5875
+    },
+    "schema/query-catalog.v2.json": {
+      "sha256": "1d527c07cc806e8e7544af07de7ab8eb4bd7198b85cdf9df1a7ce9a1976c4b9b",
+      "size": 3182
+    }
+  },
+  "format_version": 1,
+  "kind": "vendor-sdk",
+  "sdk_version": "1.0.0"
+}

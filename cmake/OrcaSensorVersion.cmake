@@ -1,0 +1,9 @@
+# SDK version variables must not inherit the consuming project's version.
+file(STRINGS "${CMAKE_CURRENT_LIST_DIR}/../VERSION" ORCA_SENSOR_SDK_VERSION LIMIT_COUNT 1)
+if(NOT ORCA_SENSOR_SDK_VERSION MATCHES "^([0-9]+)\\.([0-9]+)\\.([0-9]+)$")
+    message(FATAL_ERROR "Orca Sensor SDK VERSION must contain major.minor.patch")
+endif()
+set(ORCA_SENSOR_SDK_VERSION_MAJOR "${CMAKE_MATCH_1}")
+set(ORCA_SENSOR_SDK_VERSION_MINOR "${CMAKE_MATCH_2}")
+set(ORCA_SENSOR_SDK_VERSION_PATCH "${CMAKE_MATCH_3}")
+set_property(DIRECTORY APPEND PROPERTY CMAKE_CONFIGURE_DEPENDS "${CMAKE_CURRENT_LIST_DIR}/../VERSION")
