@@ -5,10 +5,6 @@
       "sha256": "ed239e2796afc0f6d4d0cabe449784948cbfd9b2fc18f0e942add9c2e0897141",
       "size": 104
     },
-    ".gitignore": {
-      "sha256": "5b92443c5b87f21e0723c503a5c6a97b7f29cda6461f4edc6c9b34be98634559",
-      "size": 125
-    },
     "CMakeLists.txt": {
       "sha256": "d27835098cbbc4ca2c8bf3ffce68ec8ad5ee14ab1fa021f90810239ee8bcf11b",
       "size": 5515
